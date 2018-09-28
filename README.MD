@@ -61,4 +61,6 @@ sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.devicebased /usr/lib/scratch
 
 6. Restore original extensions
 
+```bash
 sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js /usr/lib/scratch2/scratch_extensions
+```
