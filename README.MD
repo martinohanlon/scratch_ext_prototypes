@@ -41,25 +41,29 @@ git clone https://github.com/martinohanlon/scratch_ext_prototypes
 cp /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js ~/scratch_ext_prototypes
 ```
 
-3. Install "event" prototype
+3. Install a prototype
 
-```bash
-sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.events /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
-```
+	+ event
 
-4. Install "pin based" prototype
+	```bash
+	sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.events /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
+	```
 
-```bash
-sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.pinbased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
-```
+    + pin based
 
-5. Install "device based" prototype
+	```bash
+	sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.pinbased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
+	```
 
-```bash
-sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.devicebased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
-```
+    + device based
 
-6. Restore original extensions
+	```bash
+	sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.devicebased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
+	```
+
+4. Start Scratch 
+
+5. Restore original extensions
 
 ```bash
 sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js /usr/lib/scratch2/scratch_extensions
