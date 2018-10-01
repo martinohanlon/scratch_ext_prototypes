@@ -66,5 +66,5 @@ cp /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js /home/pi/scratch_ext_
 5. Restore original extensions
 
 ```bash
-sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js /usr/lib/scratch2/scratch_extensions
+sudo cp /home/pi/scratch_ext_prototypes/piGPIOExtension.js /usr/lib/scratch2/scratch_extensions
 ```
