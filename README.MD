@@ -31,14 +31,14 @@ This prototypes splits blocks down in "devices" (LED, Button, Buzzer, PIR) to sh
 1. Clone this repo.
 
 ```bash
-cd ~
+cd /home/pi
 git clone https://github.com/martinohanlon/scratch_ext_prototypes
 ```
 
 2. Backup your existing scratch 2 extensions.
 
 ```bash
-cp /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js ~/scratch_ext_prototypes
+cp /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js /home/pi/scratch_ext_prototypes
 ```
 
 3. Install a prototype
@@ -46,19 +46,19 @@ cp /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js ~/scratch_ext_prototy
 	+ event
 
 	```bash
-	sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.events /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
+	sudo cp /home/pi/scratch_ext_prototypes/piGPIOExtension.js.events /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
 	```
 
     + pin based
 
 	```bash
-	sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.pinbased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
+	sudo cp /home/pi/scratch_ext_prototypes/piGPIOExtension.js.pinbased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
 	```
 
     + device based
 
 	```bash
-	sudo cp ~/scratch_ext_prototypes/piGPIOExtension.js.devicebased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
+	sudo cp /home/pi/scratch_ext_prototypes/piGPIOExtension.js.devicebased /usr/lib/scratch2/scratch_extensions/piGPIOExtension.js
 	```
 
 4. Start Scratch 
