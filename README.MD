@@ -1,12 +1,14 @@
-# Scratch extension prototypes
+# Scratch extension prototype
 
 This is a prototype I created of how the Raspberry Pi Scratch extension could be implemented.
 
 It was created as a way of supporting a conversation rather than a statement of intent.
 
-![event block](images/events.png)
+![prototype blocks block](images/prototype.png)
 
-Note - the `set input [pin] to [pull_up / pull_down]` doesn't work as it would have required significant re-development of the extension.
+Notes:
+- The code is a bit "hacky", its not meant to be production!
+- the `set input [pin] to [pull_up / pull_down]` doesn't work as it would have required significant re-development of the extension.
 
 ## Installation
 
