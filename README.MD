@@ -1,3 +1,5 @@
+**This repository and project has now been archived and is no longer supported. The code will remain available for reference and information.**
+
 # Scratch extension prototype
 
 This is a prototype I created of how the Raspberry Pi Scratch extension could be implemented.
